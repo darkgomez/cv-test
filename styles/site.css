@@ -1,0 +1,74 @@
+body {
+    background: url(fond.png);
+}
+a {
+    
+
+}
+
+#appbar {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: rgb(66, 103, 178);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 2px 3px 5px black;
+}
+
+#main-container {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+h1 {
+    font-family: fantasy; 
+    font-size: 3em;
+    color: white;
+    margin-left: 0;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+
+h2 {
+    margin-left: 2em;
+    font-family: fantasy; font-size: 2.5em; color: black
+}
+
+p {
+    text-align: justify;
+    width: 50%;
+    margin: 1em;
+    padding: 2em;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+#liens {
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-self: start;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#liste {
+    border: 2px solid black; 
+    padding: 1em;
+    margin: 10px;
+    padding-inline-start: 40px;
+
+}
+
+footer p {
+    text-align: center;
+    width: 90%;
+    border-top: solid black;
+}
